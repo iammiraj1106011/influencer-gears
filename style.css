@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+}.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+    
+}
+.half-width img{
+    width: 80%;
+}
+
+.PreBook-button{
+   background-color: #E02C6D;
+   color: white;
+   width: 188px;
+   height: 44px;
+
+}
+
+.collections-sec{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 33px;
+    grid-row-gap: 27px;
+    padding: 70px 210px 165px 180px;
+}
+
+.collections{
+    width: 330px;
+    height: 474px;
+    background-color:  #FFFFFF;
+    box-shadow: 0 4px 8px 0 ;
+    
+}
+.collection{
+    Width : 300px;
+    height: 396px;
+    padding:15px;
+    
+}
+.collection-details{
+    color: #6C6C6C;
+}
+
+.collection-photo img{
+    Width : 300px;
+    Height : 200px;
+}
+
+.collection-info{
+    Width : 300px;
+    height: 124px;
+    margin-bottom: 63px;
+}
+.my-center{
+    text-align: center;
+}
+.Experience-area{
+    /* padding: 40px; */
+    margin: 20px;
+    
+}
+.my-form {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+   
+    border: 3px solid rgb(27, 25, 25);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    width: 100%;
+    background-color:rgb(192, 97, 200);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+  }
+  
+  .form-div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  .form-container{
+    display: flex;
+    justify-content: center; 
+  }
+
+.footer{
+    text-align: center;
+    padding-bottom: 59px;
+}
+.fab{
+    color: cadetblue;
+    font-size: 37px;
+    padding: 20px 14px 51px 14px;
+}
+.copy-right{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    padding-bottom: 59px;
+}
+
+@media only screen and (max-width:688px){
+    .banner-section{
+        height: 1000px;
+        display: block;
+        width: 570px;
+    }
+    .banner-title{
+        margin-top: 0;
+    }
+    .banner-section img{
+        margin-right:0px;
+        margin-left:15px;
+    }
+
+    .collections-sec,.footer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer{
+      margin-left: 50px;
+    }
+  
+}
+
+@media only screen and (min-width:688px) and (max-width:992px){
+    .banner-section{
+        height: 1000px;
+        display: block;
+        width: 860px;
+   }
+   .banner-title{
+    margin-top: 0;
+}
+   .collections-sec{
+    grid-template-columns: repeat(2, 1fr);
+   }
+}
